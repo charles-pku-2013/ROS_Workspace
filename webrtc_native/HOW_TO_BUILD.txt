@@ -1,0 +1,14 @@
+How to compile peerconnection_client without GUI:
+
+Before start, make sure the "ninja" program is in $PATH
+
+1. Put the source code that with out GUI in $webrtc_checkout/src/talk/examples/peerconnection/client
+2. Put peerconnection_client.ninja.no_ui to $webrtc_checkout/src/out/Release/obj/talk/
+	and rename it to peerconnection_client.ninja
+3. cd into $webrtc_checkout/src/ run:
+			ninja -C out/Release -t clean
+	to clean old build.
+	This step only needed to build non-gui but last buid was gui, or to build gui but last build was non-gui.
+4. run: 
+		ninja -C out/Release peerconnection_client
+	

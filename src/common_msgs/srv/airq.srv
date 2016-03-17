@@ -1,0 +1,7 @@
+string sensor
+string type
+string start
+string end
+---
+air_d[] v_res
+

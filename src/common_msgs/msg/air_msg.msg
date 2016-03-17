@@ -1,0 +1,2 @@
+string sensor 
+string howlong 

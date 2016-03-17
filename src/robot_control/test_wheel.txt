@@ -1,0 +1,7 @@
+# You can add you own test cases
+# format: wheel rho theta, where rho is percent of full speed between [0.0, 1.0]
+# and theta is the angle between [0, 360] integer.
+#
+#
+# full speed forward
+wheel 1 0

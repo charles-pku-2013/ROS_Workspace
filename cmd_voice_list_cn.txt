@@ -1,0 +1,49 @@
+# simple commands:
+
+VOICE_GO_Forward	向前;前进;走啊;快跑
+VOICE_GO_Backward	向后;后退;后撤
+
+VOICE_GO_TurnLeft	左转;转弯
+VOICE_GO_TurnRight	右转
+
+VOICE_GO_LookUp		抬头;向上
+VOICE_GO_LookDown	低头;向下
+
+VOICE_GO_LookLeft	看左;扭头+左
+VOICE_GO_LookRight	看右;扭头+右
+
+VOICE_GO_Stop		停止;停;别动;别跳;别扭;停下
+VOICE_GO_FootStop	停+动;停+跳
+VOICE_GO_HeadStop	停+转;停+扭
+
+VOICE_GO_BodyRound	转圈;转一转;转一圈
+VOICE_GO_ShakeHead	摇头
+VOICE_GO_Dance		跳舞
+VOICE_GO_ComeHere	过来;近一点;跟前
+
+#####################################################
+
+# face detection commands:
+VOICE_GO_LookAtMe	认识我吗;看看我
+VOICE_GO_StopFaceDetect	别检测;别看我
+
+
+# follow-up commands:
+VOICE_GO_FollowMe	跟我走;跟着我;跟紧点
+VOICE_GO_NotFollowMe	别跟着我
+
+#####################################################
+
+
+# TV commands:
+VOICE_TV_Set_Location	这是电视+位置;记住电视+位置
+VOICE_TV_Find		找到+电视
+VOICE_TV_OPEN		打开+电视;开+电视
+VOICE_TV_Close		关闭+电视;关+电视
+VOICE_TV_CHANNEL_CCTV1	选择+中央+电视台+一频道
+VOICE_TV_CHANNEL_CCTV5	选择+中央+电视台+五频道
+
+
+
+
+

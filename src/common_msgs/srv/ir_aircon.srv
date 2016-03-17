@@ -1,0 +1,9 @@
+string brand
+string model
+uint16 wind_strength 
+uint16 temp 
+uint16 mode
+uint16 wind_mode
+uint16 power
+---
+int16 result

@@ -1,0 +1,7 @@
+string type 
+string device
+string encode_mode
+string command 
+uint32 fd
+---
+string result

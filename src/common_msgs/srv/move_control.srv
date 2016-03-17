@@ -1,0 +1,4 @@
+geometry_msgs/PoseStamped target_pose
+string location
+---
+string result

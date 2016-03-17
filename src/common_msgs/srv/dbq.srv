@@ -1,0 +1,8 @@
+string db
+string table
+string field
+string condition
+---
+string result
+int16 status
+int16 records

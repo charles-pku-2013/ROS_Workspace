@@ -1,0 +1,13 @@
+### Params for the robot
+
+## For control msgs that go from robot_control to hw_message_switch
+# WHEEL_CTRL_TOPIC: robot_control/wheel_ctrl
+# HEAD_CTRL_TOPIC: robot_control/head_ctrl
+WHEEL_CTRL_TOPIC: WheelCtrl
+HEAD_CTRL_TOPIC: HeadCtrl
+
+## For command msgs that go from wifi_msg_server to robot_control
+# WHEEL_CMD_TOPIC: robot_control/wheel_cmd
+# HEAD_CMD_TOPIC: robot_control/head_cmd
+WHEEL_CMD_TOPIC: WheelCmd
+HEAD_CMD_TOPIC: HeadCmd
