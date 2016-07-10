@@ -1,0 +1,100 @@
+# Project homepage
+http://wiki-na.ms.com/MSParts/Networking/InternProjects
+
+# C implement
+http://sharedgrok.ms.com/opengrok/xref/ets/clark/trunk/include/ets/clark/ncjournal/
+
+# git repo
+http://stashblue.ms.com:11990/atlassian-stash/users/zongdon/repos/persistentmessaging/browse
+
+
+GIT: 
+http://wiki.ms.com/MSDE/EnterpriseGit
+
+Linux compile servers:
+http://wiki.ms.com/MSDE/CompileServers
+
+
+http://stashblue.ms.com:11990/atlassian-stash/projects## Google flatbuffer
+https://google.github.io/flatbuffers/
+
+
+# compile server
+icompile1.ggateway.ms.com
+
+
+# tmp home dir
+/v/campus/tk/cs/mstk/zongdon/sunchao_home
+
+# create a share
+http://wiki.ms.com/StorageEngineering/LAFNASCSjumpstart#How_can_I_create_a_new_share_for
+
+
+# premake usage:
+# 10 min tutorials
+http://wiki.ms.com/MSDE/PremakeQuickStart
+/ms/dist/msde/PROJ/premake/prod/bin/premake_build --solution=premake-build.lua --linux-ccid=gcc49
+# note:
+module load msde/premake/prod
+premake
+
+
+
+[‎7/‎6/‎2016 5:03 PM] Zong, Dong (IST): 
+You don't really need to check out clark code
+just regiter ets/clark/xxx_version in your premake file's dist() section
+then you can just use clark
+[‎7/‎6/‎2016 5:05 PM] Sun, Chao (IST): 
+OK, thank you
+[‎7/‎6/‎2016 5:05 PM] Zong, Dong (IST): 
+the version is under
+ls /ms/dist/ets/PROJ/clark 
+
+
+
+## Code repo
+http://stashblue.ms.com:11990/atlassian-stash/projects/MSTK_MSPARTS/repos/msparts/browse
+
+
+
+git clone http://zongdon@stashblue.ms.com:11990/atlassian-stash/scm/mstk_msparts/msparts.git
+kinit
+
+
+git clone http://sunchao@stashblue.ms.com:11990/atlassian-stash/scm/~sunchao/msparts.git
+
+
+git clone http://sunchao@stashblue.ms.com:11990/atlassian-stash/scm/~sunchao/msparts.git
+
+
+git archive --remote=http://sunchao@stashblue.ms.com:11990/atlassian-stash/scm/~sunchao/msparts.git master msparts/mstk/net/trunk/src | tar xvf -
+
+
+# clark source code
+/ms/dev/ets/clark/2016.06.29-5/src
+/ncj_tools
+
+find /ms/dev/ets/clark/2016.06.29-5/src -type f | grep -ve 'ncj_tools' -ve '\.ok$' -ve '\.clang-format'
+
+477
+
+
+module load msde/premake/prod
+premake --solution=common/etsclark.lua vs2010
+premake --solution=premake-build.lua vs2010
+
+
+# clark depend
+ /ms/dev/ets/clark/2016.06.29-5
+
+
+# my_rr_test
+/ms/dist/msde/PROJ/premake/prod/bin/premake_build --solution=build.lua --linux-ccid=gcc49
+
+
+
+
+
+
+
+
